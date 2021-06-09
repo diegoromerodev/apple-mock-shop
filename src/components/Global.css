@@ -1,0 +1,38 @@
+/* Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("../assets/SF-Pro-Display-Regular.otf");
+}
+
+/* Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("../assets/SF-Pro-Display-Medium.otf");
+}
+
+/* Semibold*/
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("../assets/SF-Pro-Display-Semibold.otf");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "San Francisco", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #343434;
+}
